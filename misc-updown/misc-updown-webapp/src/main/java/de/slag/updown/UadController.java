@@ -12,6 +12,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
+import java.util.Properties;
 import java.util.stream.Collectors;
 
 import javax.faces.bean.ManagedBean;
@@ -29,12 +30,19 @@ import org.primefaces.model.UploadedFile;
 public class UadController {
 
 	private static final Log LOG = LogFactory.getLog(UadController.class);
+	
+	private static final String version = "0.0.1";
+	
 	private static final String NOT_SUCCESSFUL = "Not Successful";
 	private static final String SUCCESFUL = "Succesful";
 
 	private final String workdir = "/tmp/up-and-down/";
 
 	private Collection<Msg> messages = new ArrayList<>();
+	
+	public String getAppVersion() throws IOException {
+		return version;
+	}
 
 	public String getMessages() {
 		final List<Msg> c = new ArrayList<>(messages);
