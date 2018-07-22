@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>de.slag.updown</groupId>
 		<artifactId>misc-updown</artifactId>
-		<version>0.0.2-SNAPSHOT</version>
+		<version>0.0.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>misc-updown-webapp</artifactId>
 	<packaging>war</packaging>

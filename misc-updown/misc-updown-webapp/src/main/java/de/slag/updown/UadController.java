@@ -30,7 +30,7 @@ public class UadController {
 
 	private static final Log LOG = LogFactory.getLog(UadController.class);
 	
-	private static final String version = "0.0.1";
+	private static final String version = "0.0.3-SNAPSHOT";
 	
 	private static final String NOT_SUCCESSFUL = "Not Successful";
 	private static final String SUCCESFUL = "Succesful";
