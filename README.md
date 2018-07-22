@@ -1,2 +1,2 @@
 # de-slag-misc
-Misc applications without de-slag-core dependencies.
+Misc applications without de-slag-dawn dependencies.
